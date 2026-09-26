@@ -1,0 +1,45 @@
+body{
+    background-color: #FDFBF7;
+    color: #2C2C2C;
+    margin: 0;
+    padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  position: sticky;
+  top: 0;
+  background-color: white; /* or whatever your bg color is */
+  z-index: 10;
+}
+
+nav {
+    display: flex;
+    gap: 2rem;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family: 'PlayFair Display';
+}
+nav a{
+    text-decoration: none;
+    color: #D4AF37;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+nav a:hover{
+    color: palevioletred;
+}
+.about-text h2{
+    font-size: 4rem;
+    color: #2c2c2c;
+    margin-bottom: 1rem;
+    font-family: 'PlayFair Display';
+}
+.about-text p{
+    line-height: 1.2;
+    color: #4a4a4a;
+}
