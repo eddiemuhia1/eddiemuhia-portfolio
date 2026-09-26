@@ -11,7 +11,7 @@ header {
   padding: 1rem 2rem;
   position: sticky;
   top: 0;
-  background-color: white; /* or whatever your bg color is */
+  background-color: antiquewhite; 
   z-index: 10;
 }
 
