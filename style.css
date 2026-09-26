@@ -70,7 +70,7 @@ section{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 1.5rem;
     padding: 0;
     margin: 0;
 }
