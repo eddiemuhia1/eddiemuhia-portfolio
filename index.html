@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Asap+Sharp:ital,wght@0,100..900;1,100..900&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <h1 class="logo">Eddie Muhia</h1>
@@ -17,9 +18,17 @@
             <a href="#contact">Contact</a>
         </nav>
     </header>
+
+    <section id="hero">
+        <div class="hero-content">
+             <h1>Hola, I'm Eddie </h1>
+                 <p>Full-stack development student turning ideas into working code.</p>
+        </div>    
+    </section>
+
     <section id = "about">
         <div class="about-image">
-            <img src="Assets/banner.jpg">
+            <img src="Assets/avatar.jpg">
         </div>
         <div class="about-text">
             <h2>About me</h2>
@@ -34,15 +43,17 @@
         <ul id="skills-list"></ul>
     </section>
 
-    <section id="projects">
+    <section class="projects-section">
         <h2>Projects</h2>
         <div id="projects-container"></div>
     </section>
 
-    <section id="contact">
-        <h2>Get in Touch</h2>
-        <p>Email: <a href="mailto:eddiemuhia1@gmail.com" target="_blank">eddiemuhia1@gmail.com</a>
-        <p>Github: <a href="https://github.com/eddiemuhia1" target="_blank">github.com/eddiemuhia1</a></p>
+    <section class="contact-section">
+         <h2 class="contact-title">Contact</h2>
+         <div class="contact-links">
+                <a href="mailto:eddiemuhia1@gmail.com" class="contact-link" target="_blank">eddiemuhia1@gmail.com</a>
+                <a href="https://github.com/eddiemuhia1" class="contact-link" target="_blank">github.com/eddiemuhia1</a></p>
+        </div>
     </section>
     
     <script src="script.js"></script>
